@@ -17,8 +17,8 @@ function game(question,correctAnswer){
  userAnswer = readLineSync.question(question);
  if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()){
    console.log("Correct Answer");
-   console.log("Current Score: "+score);
    score++;
+   console.log("Current Score: "+score);
  }
   else {
     console.log("Wrong Answer")
